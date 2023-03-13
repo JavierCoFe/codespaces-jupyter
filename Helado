@@ -1,0 +1,14 @@
+def precio ():
+    a= input ("introduzca sabor:" ) #Hay que definir la variable antes del while
+    
+    while a != "fin":
+    
+            if a == "limon":
+                print ("2$")
+            elif a == "naranja":
+                print ("2$")
+            else:
+                print ("4$")
+            return precio() #Esto evita el bucle infinito
+
+precio()
